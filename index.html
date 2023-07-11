@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/201ca005c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Favicon - generated from https://favicon.io/favicon-converter/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+    <title>Emily for #SISTECH</title>
+</head>
+
+<body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: SeparatePopper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="header__sticky">
+        <div class="navbar__container">
+            <ul class="navbar__list">
+                <li>
+                    <a href="mailto:emilyjoyceline@gmail.com" class="navbar__highlight"><b>Emily Joyceline Gunawan</b> for RISTEK Sisters in Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar__item">LEBIH MURAH DI APLIKASI</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar__item">MENJADI PENJUAL</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar__item">LAYANAN PELANGGAN</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar__item">LACAK PESANAN</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar__item">MASUK</a>
+                </li class="navbar__item">
+                <li>
+                    <a href="#" class="navbar__item">DAFTAR</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__container row">
+            <div class="col-md-2">
+                <a href="https://lazada.com/" target="_blank">
+                    <img src="./assets/lazada-logo.png" width="150" alt="Lazada Logo" loading="lazy">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <form class="row" action="#" method="post">
+                    <input class="search__input" type="search" id="search" placeholder="Cari di Lazada" aria-label="Search" required>
+                    <button class="search__button btn my-2 my-sm-0" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="cart-icon__container col-md-1">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content__container">
+
+        <div class="section__container row">
+            <div class="col-md-3">
+                <h5 class="section__title">Cari apa, nih?</h5>
+                <ul class="category__list mt-3">
+                    <li>
+                        <a href="#">Peralatan Elektronik</a>
+                    </li>
+                    <li>
+                        <a href="#">Aksesoris Elektronik</a>
+                    </li>
+                    <li>
+                        <a href="#">Fashion & Aksesoris Wanita</a>
+                    </li>
+                    <li>
+                        <a href="#">Fashion & Aksesoris Pria</a>
+                    </li>
+                    <li>
+                        <a href="#">Fashion & Aksesoris Anak</a>
+                    </li>
+                    <li>
+                        <a href="#">Kesehatan & Kecantikan</a>
+                    </li>
+                    <li>
+                        <a href="#">Bayi & Mainan</a>
+                    </li>
+                    <li>
+                        <a href="#">TV & Elektronik Rumah</a>
+                    </li>
+                    <li>
+                        <a href="#">Keperluan Rumah & Gaya Hidup</a>
+                    </li>
+                    <li>
+                        <a href="#">Kebutuhan Rumah Tangga</a>
+                    </li>
+                    <li>
+                        <a href="#">Olahraga & Outdoor</a>
+                    </li>
+                    <li>
+                        <a href="#">Otomotif</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <img src="./assets/caroussel-bg.webp" width="930" alt="1" class="category__image img-responsive">
+            </div>
+        </div>
+
+        <div class="section__navbar section__container row">
+            <div class="section-icon__container col-md-3">
+                <a href="#flash_sale">
+                    <img src="./assets/icons/flash-sale-icon.svg" width="150" height="40" alt="Flash Sale" loading="lazy">
+                    <p class="section__title text-center">Flash Sale</p>
+                </a>
+            </div>
+            <div class="section-icon__container col-md-3">
+                <a href="#hanya_untukmu">
+                    <img src="./assets/icons/hanya-untukmu-icon.svg" width="150" height="40" alt="Hanya Untukmu" loading="lazy">
+                    <p class="section__title text-center">Hanya Untukmu</p>
+                </a>
+            </div>
+            <div class="section-icon__container col-md-3">
+                <a href="#paling_populer">
+                    <img src="./assets/icons/populer-icon.svg" width="150" height="40" alt="Paling Populer" loading="lazy">
+                    <p class="section__title text-center">Paling Populer</p>
+                </a>
+            </div>
+            <div class="section-icon__container col-md-3">
+                <a href="#lazmall">
+                    <img src="./assets/icons/lazmall-icon.svg" width="150" height="40" alt="LazMall" loading="lazy">
+                    <p class="section__title text-center">LazMall</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="section__container" id="flash_sale">
+            <div class="row">
+                <h4 class="section__title"><i class="fa-solid fa-bolt mr-2"></i>Flash Sale</h4>
+                <span class="ml-5 section__link">Berakhir Dalam</span>
+                <div class="ml-3">
+                    <div class="row">
+                        <div class="clock__timer">09</div>
+                        <div class="clock__divider mx-2">:</div>
+                        <div class="clock__timer">23</div>
+                        <div class="clock__divider mx-2">:</div>
+                        <div class="clock__timer">33</div>
+                    </div>
+                </div>
+                <div class="ml-5 section__link">
+                    Belanja Semua Produk!
+                </div>
+            </div>
+            <div class="product__list__container row mt-2">
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="section__container" id="hanya_untukmu">
+            <div class="row">
+                <h4 class="section__title">Hanya Untukmu</h4>
+                <a href="#" class="ml-5 section__link">
+                    Lihat Semua
+                </a>
+            </div>
+            <div class="product__list__container row mt-2">
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="section__container" id="paling_populer">
+            <div class="row">
+                <h4 class="section__title">Paling Populer</h4>
+                <a href="#" class="ml-5 section__link">
+                    Lihat Semua
+                </a>
+            </div>
+            <div class="product__list__container row mt-2">
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+                <a href="#" class="product__container col-md-2">
+                    <img class="product__image" src="./assets/product-img.png" alt="Product" loading="lazy"><br>
+                    <span class="product__title">Sandal wanita</span><br>
+                    <span class="product__price">Rp26.900</span><br>
+                    <span class="product__disc"><s>Rp76.900</s> -65%</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="section__container" id="lazmall">
+            <div class="row">
+                <h4 class="section__title"><i class="fa-solid fa-bag-shopping mr-2"></i>LazMall</h4>
+                <a href="#" class="ml-5 section__link">
+                    Lihat Semua
+                </a>
+            </div>
+            <div class="product__list__container row mt-2">
+                <div class="col-md-2">
+                    <a href="#">
+                        <img class="product__image" src="https://images.ctfassets.net/9q8du028z7sn/5ZDmBzTjmNKLwIckomA1JL/49b7e6a10fae65bc271fe59e1b4e2bf5/380x400_APPBRAND_77SALE_ZAP_HNMW.jpg" alt="Product" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img class="product__image" src="https://images.ctfassets.net/9q8du028z7sn/7ynCYOaQH7dHS08w6wnQfG/23eaf808180368aa551f597129a4a281/380x400_APPBRAND_66SALE_.jpg" alt="Product" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img class="product__image" src="https://images.ctfassets.net/9q8du028z7sn/3JfViYwYcesYf5qW2jjjxV/b55bb2838d7e6c0841d1b268cdf9a64a/380x400_APPBRAND_77SALE_ANNACOLLECTION.jpg" alt="Product" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img class="product__image" src="https://images.ctfassets.net/9q8du028z7sn/3RNGNbhxgQib3VYZQ07wOF/0c28a7fe8ae4548a4cf7cb1956221ce0/380x400_APPBRAND_66SALE___1_.jpg" alt="Product" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img class="product__image" src="https://images.ctfassets.net/9q8du028z7sn/4rdCtkDI40PCjT0Ff79YHq/e16a3e83a5b282d10e7f448f5e6d5a2a/380x400_APPBRAND_77SALE__.jpg" alt="Product" loading="lazy">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__container row">
+            <div class="section-icon__container col-md-4">
+                <a href="#">
+                    <img class="promo__image" src="./assets/promo-1.png" width="400" alt="Promo" loading="lazy">
+                </a>
+            </div>
+            <div class="section-icon__container col-md-4">
+                <a href="#">
+                    <img class="promo__image" src="./assets/promo-2.jpg" width="400" alt="Promo" loading="lazy">
+                </a>
+            </div>
+            <div class="section-icon__container col-md-4">
+                <a href="#">
+                    <img class="promo__image" src="./assets/promo-3.jpg" width="400" alt="Promo" loading="lazy">
+                </a>
+            </div>
+        </div>
+
+        <div class="section__container row">
+            <div class="col-md-4">
+                <h5 class="section__title">Layanan Pelanggan</h5>
+                <ul class="footer__list mt-4">
+                    <li>
+                        <a href="#">Pusat Bantuan</a>
+                    </li>
+                    <li>
+                        <a href="#">Cara Pembelian</a>
+                    </li>
+                    <li>
+                        <a href="#">Pengiriman</a>
+                    </li>
+                    <li>
+                        <a href="#">Kebijakan Produk Internasional</a>
+                    </li>
+                    <li>
+                        <a href="#">Cara Pengembalian</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="section__title text-center">Jelajahi Lazada</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="footer__list mt-3">
+                            <li>
+                                <a href="#">Kebijakan Privasi</a>
+                            </li>
+                            <li>
+                                <a href="#">Press & Media</a>
+                            </li>
+                            <li>
+                                <a href="#">Jual di Lazada</a>
+                            </li>
+                            <li>
+                                <a href="#">Keamanan Lazada</a>
+                            </li>
+                            <li>
+                                <a href="#">Intellectual Property Protection</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer__list mt-3">
+                            <li>
+                                <a href="#">Semua Kategori</a>
+                            </li>
+                            <li>
+                                <a href="#">Tentang Lazada</a>
+                            </li>
+                            <li>
+                                <a href="#">Program Afiliasi</a>
+                            </li>
+                            <li>
+                                <a href="#">Karir</a>
+                            </li>
+                            <li>
+                                <a href="#">Syarat & Ketentuan</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5 class="section__title text-center">Unduh Aplikasi</h5>
+                <img class="footer__img" width="200" src="./assets/download-app.webp" alt="Unduh Aplikasi" class="img-fluid mt-3 text-center">
+            </div>
+        </div>
+
+        <div class="section__container row">
+            <div class="col-md-4">
+                <h5 class="section__title">Metode Pembayaran</h5>
+                <img width="250" src="./assets/payment-methods.png" alt="Metode Pembayaran" class="img-fluid mt-3 text-center">
+            </div>
+            <div class="col-md-4">
+                <h5 class="section__title text-center">Jasa Pengiriman</h5>
+                <img class="footer__img" width="300" src="./assets/logistics.png" alt="Jasa Pengiriman" class="img-fluid mt-3 text-center">
+            </div>
+            <div class="col-md-4">
+                <h5 class="section__title text-center">Diverifikasi Oleh</h5>
+                <img class="footer__img" width="200" src="./assets/verified-by.png" alt="Diverifikasi Oleh" class="img-fluid mt-3 text-center">
+            </div>
+        </div>
+
+        <div class="section__container row">
+            <div class="col-md-4">
+                <span class="section__title">Lazada Southeast Asia</span><br>
+                <img width="250" src="./assets/lazada-sea.png" alt="Metode Pembayaran" class="img-fluid text-center">
+            </div>
+            <div class="col-md-4">
+                <span class="section__title">Ikuti Kami</span>
+                <div class="social-media__icon row mt-1">
+                    <a href="https://www.facebook.com/LazadaIndonesia?spm=a2o4j.home.sns.d_fbk.579953e0jUysxl" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lazada_id/?spm=a2o4j.home.sns.d_ins.579953e0jUysxl" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/LazadaID?spm=a2o4j.home.sns.d_twr.579953e0jUysxl" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.pinterest.com/lazadaid/?spm=a2o4j.home.sns.d_pnt.579953e0jUysxl" target="_blank">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@LazadaIndonesia?spm=a2o4j.home.sns.d_ytb.579953e0jUysxl" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@lazadaid?spm=a2o4j.home.sns.d_tkk.579953e0jUysxl" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/lazada/?spm=a2o4j.home.sns.d_lnk.579953e0jUysxl" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="section__title">&copy; 2023 Lazada</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
