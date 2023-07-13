@@ -124,8 +124,15 @@ a {
     margin: 0;
 }
 
+.section-icon__container :hover {
+    /* create outline border */
+    border: 1px solid #f6359d;
+
+
+}
+
 .section__title {
-    color: #003ab1;
+    color: #13186F;
     font-weight: bold;
 }
 
@@ -192,7 +199,7 @@ a {
 }
 
 .product__title {
-    color: #000;
+    color: #13186F;
 }
 
 .product__price {
@@ -244,4 +251,29 @@ a {
     z-index: 1000;
     background: #fff;
     padding: 10px 120px;
+}
+
+.official_store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+
+    background: #f57224;
+    color: #fff;
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 0 5px;
+
+}
+.product__rating{
+
+    color: #00000068;
+    font-weight: bold;
+    
+
+
+
 }
