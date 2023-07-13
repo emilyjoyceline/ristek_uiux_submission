@@ -1,307 +1,324 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .row {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .header__sticky {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .alert {
-    margin: 0 !important;
-    border-radius: 0 !important;
-    background-image: url('./assets/alert-bg.gif');
-    background-size: cover;
-    background-position: center;
-    height: 100px;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  background-image: url("./assets/alert-bg.gif");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
 }
 
 .close {
-    color: #fff !important;
-    font-size: 30px !important;
-    opacity: 1 !important;
-    top: -10px !important;
-    right: -10px !important;
+  color: #fff !important;
+  font-size: 30px !important;
+  opacity: 1 !important;
+  top: -10px !important;
+  right: -10px !important;
 }
 
 .navbar__container {
-    background: #f7f7f7;
+  background: #f7f7f7;
 }
 
 .navbar__list {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 5px 120px;
-    font-size: 10pt;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 5px 120px;
+  font-size: 10pt;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .navbar__list li {
-    padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .navbar__highlight {
-    color: #0f1596;
+  color: #0f1596;
 }
 
 .navbar__item {
-    color: #a99e9e;
+  color: #a99e9e;
 }
 
 .header__container {
-    padding: 20px 120px !important;
-    background: #fff;
+  padding: 20px 120px !important;
+  background: #fff;
 }
 
 .search__input {
-    background-color: #eff0f5 !important;
-    padding-left: 20px !important;
-    height: 45px !important;
-    border-radius: 5px 0 0 5px !important;
-    border: none !important;
-    width: 95% !important;
+  background-color: #eff0f5 !important;
+  padding-left: 20px !important;
+  height: 45px !important;
+  border-radius: 5px 0 0 5px !important;
+  border: none !important;
+  width: 95% !important;
 }
 
 .search__input:focus {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .search__input::placeholder {
-    color: #a99e9e;
+  color: #a99e9e;
 }
 
 .search__button,
 .search__button:hover {
-    background: #f57224 !important;
-    color: #fff !important;
-    border-radius: 0 5px 5px 0 !important;
-    height: 45px !important;
+  background: #f57224 !important;
+  color: #fff !important;
+  border-radius: 0 5px 5px 0 !important;
+  height: 45px !important;
 }
 
 .form-control {
-    width: fit-content !important;
+  width: fit-content !important;
 }
 
 .cart-icon__container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .fa-cart-shopping {
-    color: #111c6d;
-    font-size: 25px;
+  color: #111c6d;
+  font-size: 25px;
 }
 
 .form-inline {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 .section__container {
-    padding: 20px 120px;
+  padding: 20px 120px;
 }
 
 .section-icon__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
 }
 
 .section-icon__container a p {
-    margin: 0;
+  margin: 0;
 }
 
 .navbar__link:hover {
-    border: 1px solid #f6359d;
+  border: 1px solid #f6359d;
 }
 
 .section__title {
-    color: #13186F;
-    font-weight: bold;
+  color: #13186f;
+  font-weight: bold;
 }
 
 .footer__list li a {
-    color: #f6359d;
+  color: #f6359d;
 }
 
 .footer__list li a:hover {
-    color: #003ab1;
+  color: #13186f;
 }
 
 .section__link,
 .section__link:hover {
-    color: #f6359d;
-    font-weight: bold;
+  color: #f6359d;
+  font-weight: bold;
 }
 
 .category__list,
 .footer__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .category__list li a {
-    color: #a99e9e;
+  color: #a99e9e;
 }
 
 .product__image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 .category__list li a:hover {
-    color: #003ab1;
+  color: #003ab1;
 }
 
 .promo__image {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .category__image {
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .product__list__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .product__container {
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #e5e5e5;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
 }
 
 .product__container:hover,
 .product__lazmall:hover {
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .product__title,
 .product__price {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .product__title {
-    color: #13186F;
+  color: #13186f;
 }
 
 .product__price {
-    color: #f99334;
+  color: #f99334;
 }
 
 .product__disc {
-    color: #a99e9e;
-    font-size: 10pt;
+  color: #a99e9e;
+  font-size: 10pt;
 }
 
 .clock__timer,
 .clock__divider {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .clock__timer {
-    background: #f52495;
-    color: #fff;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+  background: #f52495;
+  color: #fff;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .clock__divider {
-    color: #f52495;
+  color: #f52495;
 }
 
 .footer__img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-media__icon a {
-    color: #a99e9e;
-    font-size: 30px;
+  color: #a99e9e;
+  font-size: 30px;
 }
 
 .social-media__icon i {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
 .section__navbar {
-    position: sticky;
-    top: 100px;
-    z-index: 1000;
-    background: #fff;
-    padding: 10px 120px;
+  position: sticky;
+  top: 100px;
+  z-index: 1000;
+  background: #fff;
+  padding: 10px 120px;
 }
 
 .product__oficial-store {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 30px;
-    border-radius: 0 0 5px 5px;
-    background: #f57224;
-    color: #fff;
-    font-size: 10pt;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  border-radius: 0 0 5px 5px;
+  background: #f57224;
+  color: #fff;
+  font-size: 10pt;
+  font-weight: bold;
 }
 
 .accordion__chevron {
-    position: absolute;
-    right: 20px;
-    width: 20px;
-    height: 20px;
-    line-height: 25px !important;
+  position: absolute;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 25px !important;
 }
 
 .card-header {
-    background: #13186F !important;
+  background: #13186f !important;
 }
 
 .btn-link {
-    color: #fff !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
 }
 
 .btn-link:focus {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .fa-star {
-    color: #f9c434;
-    font-size: 11pt;
+  color: #f9c434;
+  font-size: 11pt;
 }
 
 .product__rating {
-    color: #00000068;
-    font-weight: 475;
-    font-size: 11pt;
+  color: #00000068;
+  font-weight: 475;
+  font-size: 11pt;
 }
 
 .product__lazmall {
-    padding: 0 !important;
+  padding: 0 !important;
+}
+
+.top__categories {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #13186f;
+}
+.categories__title{
+    font-size: 12pt;
+    font-weight: bold;
+    color: #13186f;
+}
+
+.categories__brands{
+    color: #f52495;
+    font-size: 10pt;
+
 }
