@@ -212,6 +212,11 @@ a {
   color: #a99e9e;
   font-size: 10pt;
 }
+.discount {
+  color: #f52495;
+  font-weight: bold;
+  font-size: 10pt;
+}
 
 .clock__timer,
 .clock__divider {
@@ -311,14 +316,13 @@ a {
   font-weight: bold;
   color: #13186f;
 }
-.categories__title{
-    font-size: 12pt;
-    font-weight: bold;
-    color: #13186f;
+.categories__title {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #13186f;
 }
 
-.categories__brands{
-    color: #f52495;
-    font-size: 10pt;
-
+.categories__brands {
+  color: #f52495;
+  font-size: 10pt;
 }
